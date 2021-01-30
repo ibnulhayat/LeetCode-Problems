@@ -1,24 +1,24 @@
 # Solve Some LeetCode-Problems
-1. Problem no : 58
+1. Problem no : 58,
 Title : Length of Last Word   
 
-2. Problem no : 125
+2. Problem no : 125,
 Title : Valid Palindrome 
 
-3. Problem no : 344
+3. Problem no : 344,
 Title : Reverse String  
 
-4. Problem no : 383
+4. Problem no : 383,
 Title : Ransom Note 
 
-5. Problem no : 520
+5. Problem no : 520,
 Title : Detect Capital    
 
-6. Problem no : 680
+6. Problem no : 680,
 Title : Valid Palindrome II  
 
-7. Problem no : 1544
-Title :
+7. Problem no : 1544,
+Title : Make The String Great 
 
 8. Problem no : 
 Title : 
