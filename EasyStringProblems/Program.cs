@@ -1,0 +1,122 @@
+﻿using System;
+
+namespace EasyStringProblems
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+          
+            /* 
+            if you want to see output Length Of Last Word
+            commnet out below two lines(13,14)
+            Problem no = 58
+            status: done 
+             */
+            // LengthOfLastWord loflw = new LengthOfLastWord();
+            // Console.WriteLine("Length : " +loflw.lengthOfLastWord(input()));
+
+
+            /* 
+            if you want to see output ValidPalindrome
+            commnet out below two lines
+            Problem no = 125
+            status: done 
+            */
+            //IsPalindrome Palindrome = new IsPalindrome();
+            //Console.WriteLine("Is Palindrome : " + Palindrome.isPalindrome(input()));
+            
+
+            /* 
+            if you want to see output ReverseString
+            commnet out below two lines
+            Problem no = 344
+            status: done 
+            */
+            // char[] ch = {'h','e','l','l','o'};
+            // ReverseString reverseString = new ReverseString();
+            // reverseString.reverseString(ch);
+
+
+            /* 
+            if you want to see output RansomNote
+            commnet out below two lines
+            Problem no = 383
+            status: done 
+            */
+            //RansomNote ransom = new RansomNote();
+            //Console.WriteLine("RansomNote : " + ransom.CanConstruct(input(),input()));
+
+
+            /* 
+            if you want to see output Reverse String II
+            commnet out below two lines
+            Problem no = 520
+            status: done
+            */
+            // DetectCapital detectcapital = new DetectCapital();
+            // Console.WriteLine("detectcapital : " + detectcapital.DetectCapitalUse(input()));
+            
+
+            /* 
+            if you want to see output ValidPalindromeII
+            commnet out below two lines
+            Problem no = 680
+            status: done 
+            */
+            //ValidPalindrome validP = new ValidPalindrome();
+            //Console.WriteLine("Valid Palindrome : " + validP.validPalindrome2(input()));
+
+            /* 
+            if you want to see output MakeGood
+            commnet out below two lines
+            Problem no = 1544
+            status: done 
+            */
+            //MakeGood makegood = new MakeGood();
+            //Console.WriteLine("MakeGood : " + makegood.makeGood2(input()));
+
+
+            /* 
+            if you want to see output Reverse String II
+            commnet out below two lines
+            Problem no = 541
+            status: not submit now/ on testing 
+            */
+            // ReverseStringII reverseStringII = new ReverseStringII();
+            // Console.WriteLine("ReverseStringII : " + reverseStringII.reverseStr(input(),2));
+            
+            /* 
+            if you want to see output Reverse Vowels String
+            commnet out below two lines
+            Problem no = 345
+            status: not submit now/ on testing 
+            */
+            // ReverseVowelsString reverseVowels = new ReverseVowelsString();
+            // Console.WriteLine("ReverseVowels : " + reverseVowels.reverseVowels(input()));
+            
+            /* 
+            if you want to see output Add Binary
+            commnet out below two lines
+            Problem no = 67
+            status: not submit now/ on testing 
+            */
+            // AddBinary addbinary = new AddBinary();
+            // Console.WriteLine("Add Binary: " + addbinary.addBinary(input(), input()));
+
+
+        }
+
+        public static string input()
+        {
+            Console.WriteLine("Input string value:");
+            string value = Console.ReadLine();
+            return value;
+        }
+        
+        public static void output(string message, string value)
+        {
+            Console.WriteLine(message + " : " + value);
+        }
+    }
+}

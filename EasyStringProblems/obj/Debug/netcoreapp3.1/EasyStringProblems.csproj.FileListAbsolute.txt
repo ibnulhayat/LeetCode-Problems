@@ -1,0 +1,13 @@
+H:\Parsonal Project\C#\LeetCode\EasyStringProblems\bin\Debug\netcoreapp3.1\EasyStringProblems.exe
+H:\Parsonal Project\C#\LeetCode\EasyStringProblems\bin\Debug\netcoreapp3.1\EasyStringProblems.deps.json
+H:\Parsonal Project\C#\LeetCode\EasyStringProblems\bin\Debug\netcoreapp3.1\EasyStringProblems.runtimeconfig.json
+H:\Parsonal Project\C#\LeetCode\EasyStringProblems\bin\Debug\netcoreapp3.1\EasyStringProblems.runtimeconfig.dev.json
+H:\Parsonal Project\C#\LeetCode\EasyStringProblems\bin\Debug\netcoreapp3.1\EasyStringProblems.dll
+H:\Parsonal Project\C#\LeetCode\EasyStringProblems\bin\Debug\netcoreapp3.1\EasyStringProblems.pdb
+H:\Parsonal Project\C#\LeetCode\EasyStringProblems\obj\Debug\netcoreapp3.1\EasyStringProblems.csprojAssemblyReference.cache
+H:\Parsonal Project\C#\LeetCode\EasyStringProblems\obj\Debug\netcoreapp3.1\EasyStringProblems.AssemblyInfoInputs.cache
+H:\Parsonal Project\C#\LeetCode\EasyStringProblems\obj\Debug\netcoreapp3.1\EasyStringProblems.AssemblyInfo.cs
+H:\Parsonal Project\C#\LeetCode\EasyStringProblems\obj\Debug\netcoreapp3.1\EasyStringProblems.csproj.CoreCompileInputs.cache
+H:\Parsonal Project\C#\LeetCode\EasyStringProblems\obj\Debug\netcoreapp3.1\EasyStringProblems.dll
+H:\Parsonal Project\C#\LeetCode\EasyStringProblems\obj\Debug\netcoreapp3.1\EasyStringProblems.pdb
+H:\Parsonal Project\C#\LeetCode\EasyStringProblems\obj\Debug\netcoreapp3.1\EasyStringProblems.genruntimeconfig.cache
