@@ -25,7 +25,8 @@ namespace EasyStringProblems
                 s[i] = s[s.Length - 1 - i];
                 s[s.Length - 1 - i] = c;
             }
-            Console.WriteLine("reverse " + s);
+            Console.WriteLine("[{0}]", string.Join(", ", s));
+            //Console.WriteLine("reverse : " + s);
         }
         public void reverseString2(char[] s)
         {

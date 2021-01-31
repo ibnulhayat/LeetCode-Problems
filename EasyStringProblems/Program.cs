@@ -16,6 +16,19 @@ namespace EasyStringProblems
             // LengthOfLastWord loflw = new LengthOfLastWord();
             // Console.WriteLine("Length : " +loflw.lengthOfLastWord(input()));
 
+            /* 
+            if you want to see output Add Binary
+            commnet out below two lines
+            Problem no = 67
+            status: done 
+            */
+            /* input string */
+            //string stringOne = "10100000100100110110010000010101111011011001101110111111111101000000101111001110001111100001101";
+            //string stringTwo = "110101001011101110001111100110001010100001101011101010000011011011001011101111001100000011011110011";
+            /* output: 110111101100010011000101110110100000011101000101011001000011011000001100011110011010010011000000000 */
+            // AddBinary addbinary = new AddBinary();
+            // Console.WriteLine("Add Binary: " + addbinary.addBinary("1010", "1011"));
+
 
             /* 
             if you want to see output ValidPalindrome
@@ -37,6 +50,15 @@ namespace EasyStringProblems
             // ReverseString reverseString = new ReverseString();
             // reverseString.reverseString(ch);
 
+            /* 
+            if you want to see output Reverse Vowels String
+            commnet out below two lines
+            Problem no = 345
+            status: done
+            */
+            // ReverseVowelsString reverseVowels = new ReverseVowelsString();
+            // Console.WriteLine("ReverseVowels : " + reverseVowels.reverseVowels(input()));
+            
 
             /* 
             if you want to see output RansomNote
@@ -85,25 +107,7 @@ namespace EasyStringProblems
             */
             // ReverseStringII reverseStringII = new ReverseStringII();
             // Console.WriteLine("ReverseStringII : " + reverseStringII.reverseStr(input(),2));
-            
-            /* 
-            if you want to see output Reverse Vowels String
-            commnet out below two lines
-            Problem no = 345
-            status: not submit now/ on testing 
-            */
-            // ReverseVowelsString reverseVowels = new ReverseVowelsString();
-            // Console.WriteLine("ReverseVowels : " + reverseVowels.reverseVowels(input()));
-            
-            /* 
-            if you want to see output Add Binary
-            commnet out below two lines
-            Problem no = 67
-            status: not submit now/ on testing 
-            */
-            // AddBinary addbinary = new AddBinary();
-            // Console.WriteLine("Add Binary: " + addbinary.addBinary(input(), input()));
-
+        
 
         }
 

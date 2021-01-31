@@ -9,33 +9,41 @@ namespace EasyStringProblems
         Tags = string
         Problem no = 345
     */
-    class ReverseVowelsString{
+    class ReverseVowelsString
+    {
 
-        public ReverseVowelsString(){
+        public ReverseVowelsString()
+        {
         }
-        public string reverseVowels(string s) {
-        StringBuilder sb = new StringBuilder(s);
-        int pre_index = -1; 
-        // Char pre_ch = ''; 
-        string vowels = "aeiouAEIOU";
-        foreach(char c in s.ToCharArray()){
-            if(vowels.Contains(c)){
-                int index = s.IndexOf(c);
-                if(pre_index != -1){
-                    Console.WriteLine(pre_index);
-                    sb[pre_index] = c;
-                    //sb[index] = pre_ch;
-                }else{
-                    pre_index =index;
-                    // pre_ch = c;
+        public string reverseVowels(string s)
+        {
+            //StringBuilder sb = new StringBuilder(s);
+            /* faster to string build*/
+            char[] chars = s.ToCharArray();
+            int left = 0;
+            int right = s.Length - 1;
+            string vowels = "aeiouAEIOU";
+            while (left < right)
+            {
+                if (vowels.Contains(s[left]) && vowels.Contains(s[right]))
+                {
+                    char ch = s[left];
+                    chars[left] = s[right];
+                    chars[right] = ch;
+                    left++;
+                    right--;
+                }
+                else if (vowels.Contains(s[left]))
+                {
+                    right--;
+                }
+                else
+                {
+                    left++;
                 }
             }
-            
-            
+            return string.Join("", chars);
         }
-        
-        return sb.ToString();
-    }
 
     }
 }
