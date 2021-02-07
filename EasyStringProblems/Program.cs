@@ -69,6 +69,25 @@ namespace EasyStringProblems
             //RansomNote ransom = new RansomNote();
             //Console.WriteLine("RansomNote : " + ransom.CanConstruct(input(),input()));
 
+             
+            /* 
+            if you want to see output Add Strings
+            commnet out below two lines
+            Problem no = 415
+            status: done 
+            */
+            // AddStrings addStrings = new AddStrings();
+            // Console.WriteLine("Add String : " + addStrings.addStrings(input(), input()));
+
+            /* 
+            if you want to see output Number of Segments
+            commnet out below two lines
+            Problem no = 434
+            status: not submit now/ on testing 
+            */
+             NumberofSegments numberofSegments = new NumberofSegments();
+             Console.WriteLine("Number of Segments : " + numberofSegments.countSegments(input()));
+        
 
             /* 
             if you want to see output Reverse String II
@@ -98,6 +117,15 @@ namespace EasyStringProblems
             //MakeGood makegood = new MakeGood();
             //Console.WriteLine("MakeGood : " + makegood.makeGood2(input()));
 
+            
+            /* 
+            if you want to see output First Uniq Chararacter
+            commnet out below two lines
+            Problem no = 387
+            status: not submit now/ on testing 
+            */
+            // FirstUniqCharacter uniqCharacter = new FirstUniqCharacter();
+            // Console.WriteLine("Uniq Character : " + uniqCharacter.firstUniqChar(input()));
 
             /* 
             if you want to see output Reverse String II
