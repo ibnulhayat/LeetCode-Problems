@@ -69,6 +69,15 @@ namespace EasyStringProblems
             //RansomNote ransom = new RansomNote();
             //Console.WriteLine("RansomNote : " + ransom.CanConstruct(input(),input()));
 
+            /* 
+            if you want to see output First Uniq Chararacter
+            commnet out below two lines
+            Problem no = 387
+            status: done 
+            */
+            // FirstUniqCharacter uniqCharacter = new FirstUniqCharacter();
+            // Console.WriteLine("Uniq Character : " + uniqCharacter.firstUniqChar(input()));
+
              
             /* 
             if you want to see output Add Strings
@@ -83,10 +92,10 @@ namespace EasyStringProblems
             if you want to see output Number of Segments
             commnet out below two lines
             Problem no = 434
-            status: not submit now/ on testing 
+            status: done
             */
-             NumberofSegments numberofSegments = new NumberofSegments();
-             Console.WriteLine("Number of Segments : " + numberofSegments.countSegments(input()));
+            // NumberofSegments numberofSegments = new NumberofSegments();
+            // Console.WriteLine("Number of Segments : " + numberofSegments.countSegments(input()));
         
 
             /* 
@@ -118,15 +127,7 @@ namespace EasyStringProblems
             //Console.WriteLine("MakeGood : " + makegood.makeGood2(input()));
 
             
-            /* 
-            if you want to see output First Uniq Chararacter
-            commnet out below two lines
-            Problem no = 387
-            status: not submit now/ on testing 
-            */
-            // FirstUniqCharacter uniqCharacter = new FirstUniqCharacter();
-            // Console.WriteLine("Uniq Character : " + uniqCharacter.firstUniqChar(input()));
-
+            
             /* 
             if you want to see output Reverse String II
             commnet out below two lines
