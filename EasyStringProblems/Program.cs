@@ -126,7 +126,15 @@ namespace EasyStringProblems
             //MakeGood makegood = new MakeGood();
             //Console.WriteLine("MakeGood : " + makegood.makeGood2(input()));
 
-            
+            /* 
+            if you want to see output Repeated Substring Pattern
+            commnet out below two lines
+            Problem no = 459
+            status: not submit now/ on testing 
+            */
+            SubstringPattern substringPattern = new SubstringPattern();
+            Console.WriteLine("Substring Pattern : " + substringPattern.RepeatedSubstringPattern(input()));
+
             
             /* 
             if you want to see output Reverse String II
