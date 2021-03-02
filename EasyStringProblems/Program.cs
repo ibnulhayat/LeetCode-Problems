@@ -130,12 +130,22 @@ namespace EasyStringProblems
             if you want to see output Repeated Substring Pattern
             commnet out below two lines
             Problem no = 459
-            status: not submit now/ on testing 
+            status: done 
             */
-            SubstringPattern substringPattern = new SubstringPattern();
-            Console.WriteLine("Substring Pattern : " + substringPattern.RepeatedSubstringPattern(input()));
+            // SubstringPattern substringPattern = new SubstringPattern();
+            // Console.WriteLine("Substring Pattern : " + substringPattern.RepeatedSubstringPattern(input()));
 
             
+             /* 
+            if you want to see output Longest Uncommon Subsequence I
+            commnet out below two lines
+            Problem no = 521
+            status: done 
+            */
+            LongestUncommonSub longestUncommon = new LongestUncommonSub();
+            Console.WriteLine("ReverseStringII : " + longestUncommon.FindLUSlength(input(),input()));
+        
+
             /* 
             if you want to see output Reverse String II
             commnet out below two lines

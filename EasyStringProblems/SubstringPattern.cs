@@ -14,49 +14,34 @@ namespace EasyStringProblems
 
         public bool RepeatedSubstringPattern(string s)
         {
-            int i = 1;
-            bool found = false;
-            int subLength;
-            while (i < s.Length)
-            {
 
-                string substr = s.Substring(0, i);
-                subLength = substr.Length;
-                //Console.WriteLine(substr + " " + i + " first");
-                while (subLength < s.Length)
-                {
+            for (int i = 1; i <= s.Length/2; i++)
+            {
+                if (s.Length % i != 0){
+                    Console.WriteLine(i+" i - "+s.Length % i);
+                    continue;
+                }
                     
-                    if (s.Length - subLength < substr.Length)
+                bool found = true;
+                String substr = s.Substring(0, i);
+                for (int j = substr.Length; j < s.Length; j += substr.Length)
+                {
+                     Console.WriteLine(i+" = "+substr);
+                    String substr2 = s.Substring(j, substr.Length);
+
+                    if (!substr.Equals(substr2))
                     {
                         found = false;
                         break;
                     }
-                    else
-                    {
-                        string substr2 = s.Substring(subLength, substr.Length);
-                        Console.WriteLine(substr+" "+subLength+" "+substr2);
-                        if (!substr2.Equals(substr))
-                        {
-                            found = false;
-                            break;
-                        }
-                        else
-                        {
-                            found = true; 
-                        }
-                    }
-                    // string substr2 = s.Substring(subLength, subLength);
-                    // Console.WriteLine(substr+" "+s.Length+" "+substr2);
-                    subLength += substr.Length;
-
                 }
-                Console.WriteLine("length " + subLength);
-                if(s.Length == subLength-substr.Length || s.Length == subLength)
-                    break;
-                i++;
+
+                if (found)
+                    return true;
             }
 
-            return found;
+
+            return false;
         }
 
 
