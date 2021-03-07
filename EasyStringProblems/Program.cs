@@ -142,8 +142,8 @@ namespace EasyStringProblems
             Problem no = 521
             status: done 
             */
-            LongestUncommonSub longestUncommon = new LongestUncommonSub();
-            Console.WriteLine("ReverseStringII : " + longestUncommon.FindLUSlength(input(),input()));
+            // LongestUncommonSub longestUncommon = new LongestUncommonSub();
+            // Console.WriteLine("ReverseStringII : " + longestUncommon.FindLUSlength(input(),input()));
         
 
             /* 
@@ -152,8 +152,8 @@ namespace EasyStringProblems
             Problem no = 541
             status: not submit now/ on testing 
             */
-            // ReverseStringII reverseStringII = new ReverseStringII();
-            // Console.WriteLine("ReverseStringII : " + reverseStringII.reverseStr(input(),2));
+            ReverseStringII reverseStringII = new ReverseStringII();
+            Console.WriteLine("ReverseStringII : " + reverseStringII.reverseStr(input(),4));
         
 
         }
