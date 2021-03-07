@@ -145,6 +145,15 @@ namespace EasyStringProblems
             // LongestUncommonSub longestUncommon = new LongestUncommonSub();
             // Console.WriteLine("ReverseStringII : " + longestUncommon.FindLUSlength(input(),input()));
         
+            /* 
+            if you want to see output Student Attendance Record
+            commnet out below two lines
+            Problem no = 551
+            status: not submit now/ on testing 
+            */
+            StudentAttendanceRecord studentAttendance = new StudentAttendanceRecord();
+            Console.WriteLine("Student Attendance : " + studentAttendance.CheckRecord(input()));
+        
 
             /* 
             if you want to see output Reverse String II
@@ -152,8 +161,8 @@ namespace EasyStringProblems
             Problem no = 541
             status: not submit now/ on testing 
             */
-            ReverseStringII reverseStringII = new ReverseStringII();
-            Console.WriteLine("ReverseStringII : " + reverseStringII.reverseStr(input(),4));
+            // ReverseStringII reverseStringII = new ReverseStringII();
+            // Console.WriteLine("ReverseStringII : " + reverseStringII.reverseStr(input(),4));
         
 
         }
