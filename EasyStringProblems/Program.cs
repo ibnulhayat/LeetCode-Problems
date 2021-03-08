@@ -178,10 +178,10 @@ namespace EasyStringProblems
             if you want to see output Count Binary Substrings
             commnet out below two lines
             Problem no = 696
-            status: not submit now/ on testing 
+            status: done
             */
-            CountBinarySubstrings countBinary = new CountBinarySubstrings();
-            Console.WriteLine("Count Binary : " + countBinary.countBinarySubstrings(input()));
+            // CountBinarySubstrings countBinary = new CountBinarySubstrings();
+            // Console.WriteLine("Count Binary : " + countBinary.countBinarySubstrings(input()));
         
             
 
