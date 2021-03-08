@@ -183,6 +183,16 @@ namespace EasyStringProblems
             // CountBinarySubstrings countBinary = new CountBinarySubstrings();
             // Console.WriteLine("Count Binary : " + countBinary.countBinarySubstrings(input()));
         
+
+            /* 
+            if you want to see output Rotated Digits
+            commnet out below two lines
+            Problem no = 788
+            status: done
+            */
+            //  RotatedDigits rotatedDigits = new RotatedDigits();
+            //  Console.WriteLine("Count Binary : " + rotatedDigits.rotatedDigits(Convert.ToInt32(input())));
+        
             
 
             
