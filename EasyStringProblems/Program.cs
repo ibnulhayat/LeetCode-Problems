@@ -159,22 +159,33 @@ namespace EasyStringProblems
             if you want to see output Reverse Words String III
             commnet out below two lines
             Problem no = 557
-            status: not submit now/ on testing 
+            status: done 
             */
-            ReverseWordsStringIII reverseStringIII = new ReverseWordsStringIII();
-            Console.WriteLine("ReverseStringII : " + reverseStringIII.ReverseWords(input()));
+            // ReverseWordsStringIII reverseStringIII = new ReverseWordsStringIII();
+            // Console.WriteLine("ReverseStringII : " + reverseStringIII.ReverseWords(input()));
         
-            
-
             /* 
             if you want to see output Reverse String II
             commnet out below two lines
             Problem no = 541
-            status: not submit now/ on testing 
+            status: done
             */
             // ReverseStringII reverseStringII = new ReverseStringII();
             // Console.WriteLine("ReverseStringII : " + reverseStringII.reverseStr(input(),4));
         
+
+            /* 
+            if you want to see output Count Binary Substrings
+            commnet out below two lines
+            Problem no = 696
+            status: not submit now/ on testing 
+            */
+            CountBinarySubstrings countBinary = new CountBinarySubstrings();
+            Console.WriteLine("Count Binary : " + countBinary.countBinarySubstrings(input()));
+        
+            
+
+            
 
         }
 

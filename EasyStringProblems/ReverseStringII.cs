@@ -17,40 +17,41 @@ namespace EasyStringProblems
         }
         public string reverseStr(string s, int k)
         {
-            //char[] chars = s.ToCharArray();
-            // for (int i = 0; i < s.Length; i=k+k)
-            // {
-            //     char c = s[i];
-            //     Console.WriteLine("char " + c);
-            //    chars[i]= chars[i+1];
-            //    chars[i+1] = c;
-
-            // }
-            // int i = 0,j = 0;
-            // while(i<s.Length){
-            //     while(j<k/2){
-            //         char c = s[i+j];
-            //         Console.WriteLine(j+" char " + c+" "+s[i+k-1-j]);
-            //         chars[i+j]= s[i+k-1-j];
-            //         chars[i+k-1-j] = c;
-            //         j++;
-            //     }
-
-            //     i=i+2*k;
-            //     j=0;
-            // }
-            if(s.Length < 2 || s.Length < k){ return s;
-            }else{
-                for(int i=0; i < s.Length-1; i+= k*2)
+            if (s.Length < k)
+            {
+                return Reverse(s, 0, s.Length - 1);
+            }
+            else
+            {
+                for (int i = 0; i < s.Length; i += k * 2)
                 {
-                    string substring = s.Substring(i,k);
-                    Console.WriteLine(i+" char " + substring);
-                    char[] array = substring.ToCharArray();
-                    Array.Reverse(array);
-                    s =s.Replace(substring, new String(array));
+                    if (s.Length - i < k)
+                    {
+                        s = Reverse(s, i, s.Length - 1);
+                    }
+                    else
+                    {
+                        s = Reverse(s, i, i + k - 1);
+                    }
                 }
             }
             return s;
+
+        }
+
+        public string Reverse(string s, int start, int end)
+        {
+            if (end < 1) return s;
+            char[] array = s.ToCharArray();
+            while (start < end)
+            {
+                char ch = s[start];
+                array[start] = s[end];
+                array[end] = ch;
+                start++;
+                end--;
+            }
+            return new string(array);
         }
 
     }
