@@ -215,7 +215,17 @@ namespace EasyStringProblems
             //  MostCommonWprd mostCommon = new MostCommonWprd();
             //  Console.WriteLine("Common word : " + mostCommon.MostCommonWord(paragraph,array));
         
-            
+            /* 
+            if you want to see output Goat Latin
+            commnet out below two lines
+            Problem no = 824
+            status: done
+            */
+            //  GoatLatin goatLatin = new GoatLatin();
+            //  Console.WriteLine("Goat Latin : " + goatLatin.ToGoatLatin(input()));
+        
+
+
 
         }
 
