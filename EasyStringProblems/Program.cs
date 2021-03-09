@@ -194,7 +194,16 @@ namespace EasyStringProblems
             //  Console.WriteLine("Count Binary : " + rotatedDigits.rotatedDigits(Convert.ToInt32(input())));
         
             
-
+            /* 
+            if you want to see output Unique Morse Code Words
+            commnet out below two lines
+            Problem no = 804
+            status: 
+            */
+            string[] array = {"gin", "zen", "gig", "msg"};
+             UniqueMorseCodeWords uniqueMorse = new UniqueMorseCodeWords();
+             Console.WriteLine("Unique Morse : " + uniqueMorse.UniqueMorseRepresentations(array));
+        
             
 
         }
