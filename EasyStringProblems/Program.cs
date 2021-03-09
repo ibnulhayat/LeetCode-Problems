@@ -225,7 +225,26 @@ namespace EasyStringProblems
             //  Console.WriteLine("Goat Latin : " + goatLatin.ToGoatLatin(input()));
         
 
+            /* 
+            if you want to see output Goat Latin
+            commnet out below two lines
+            Problem no = 859
+            status: 
+            */
+            // string fisrt = "abcd", second = "badc";
+            //  BuddyStrings buddyStrings = new BuddyStrings();
+            //  Console.WriteLine("Buddy Strings : " + buddyStrings.BuddyString(fisrt,second));
+        
 
+            /* 
+            if you want to see output Reverse Only Problems
+            commnet out below two lines
+            Problem no = 917
+            status: 
+            */
+             ReverseOnlyLetters reverseOnly = new ReverseOnlyLetters();
+             Console.WriteLine("Reverse Only : " + reverseOnly.reverseOnlyLetters(input()));
+        
 
         }
 
