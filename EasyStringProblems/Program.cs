@@ -240,10 +240,21 @@ namespace EasyStringProblems
             if you want to see output Reverse Only Problems
             commnet out below two lines
             Problem no = 917
-            status: 
+            status: done
             */
-             ReverseOnlyLetters reverseOnly = new ReverseOnlyLetters();
-             Console.WriteLine("Reverse Only : " + reverseOnly.reverseOnlyLetters(input()));
+            //  ReverseOnlyLetters reverseOnly = new ReverseOnlyLetters();
+            //  Console.WriteLine("Reverse Only : " + reverseOnly.reverseOnlyLetters(input()));
+        
+
+        
+            /* 
+            if you want to see output Long Pressed Name
+            commnet out below two lines
+            Problem no = 925
+            status: done
+            */
+            //  LongPressedName longPressed = new LongPressedName();
+            //  Console.WriteLine("Long Pressed Name : " + longPressed.IsLongPressedName(input(),input()));
         
 
         }
