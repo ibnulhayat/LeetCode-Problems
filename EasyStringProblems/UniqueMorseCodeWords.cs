@@ -30,7 +30,7 @@ namespace EasyStringProblems
                     i++;
                 }
             }
-
+                
             return hash.Count;
         }
     }

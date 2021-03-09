@@ -203,6 +203,17 @@ namespace EasyStringProblems
             // string[] array = {"gin", "zen", "gig", "msg"};
             //  UniqueMorseCodeWords uniqueMorse = new UniqueMorseCodeWords();
             //  Console.WriteLine("Unique Morse : " + uniqueMorse.UniqueMorseRepresentations(array));
+
+            /* 
+            if you want to see output Most Common Word
+            commnet out below two lines
+            Problem no = 819
+            status: done
+            */
+            // string paragraph = "abc abc? abcd the jeff!";
+            // string[] array = {"abc","abcd","jeff"};
+            //  MostCommonWprd mostCommon = new MostCommonWprd();
+            //  Console.WriteLine("Common word : " + mostCommon.MostCommonWord(paragraph,array));
         
             
 
