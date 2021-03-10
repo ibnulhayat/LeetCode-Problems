@@ -278,6 +278,15 @@ namespace EasyStringProblems
             //  Console.WriteLine("IP Address : " + iPAddress.DefangIPaddr(input()));
         
 
+            /* 
+            if you want to see output Maximum Number Balloons
+            commnet out below two lines
+            Problem no = 1189
+            status: done
+            */
+            //  MaximumNumberBalloons maximumBalloon = new MaximumNumberBalloons();
+            //  Console.WriteLine("maximum Balloon : " + maximumBalloon.MaxNumberOfBalloons(input()));
+        
 
         }
 
