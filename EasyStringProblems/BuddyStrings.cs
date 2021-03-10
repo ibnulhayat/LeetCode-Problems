@@ -65,6 +65,7 @@ namespace EasyStringProblems
             }
         }
 
+            
         return diff % 2 == 0 && (oneSwapMade || sameLetterSwapPossible);
         }
     }

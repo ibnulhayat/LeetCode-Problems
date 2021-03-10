@@ -288,6 +288,16 @@ namespace EasyStringProblems
             //  Console.WriteLine("maximum Balloon : " + maximumBalloon.MaxNumberOfBalloons(input()));
         
 
+            /* 
+            if you want to see output Split a String in Balanced Strings
+            commnet out below two lines
+            Problem no = 1221
+            status: done
+            */
+            //  BalancedStrings balancedStrings = new BalancedStrings();
+            //  Console.WriteLine("balanced Strings : " + balancedStrings.BalancedStringSplit(input()));
+        
+
         }
 
         public static string input()
