@@ -16,6 +16,7 @@ namespace EasyStringProblems{
             count += ch == 'R'?1:-1;
             if(count == 0) balance++;
         }
+        
         return balance;
     }
 }

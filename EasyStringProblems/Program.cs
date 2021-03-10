@@ -298,6 +298,16 @@ namespace EasyStringProblems
             //  Console.WriteLine("balanced Strings : " + balancedStrings.BalancedStringSplit(input()));
         
 
+            /* 
+            if you want to see output Split a Decrypt String from Alphabet to Integer Mapping
+            commnet out below two lines
+            Problem no = 1309
+            status: done
+            */
+            //  DecryptString decryptString = new DecryptString();
+            //  Console.WriteLine("decryptString : " + decryptString.FreqAlphabets(input()));
+        
+            
         }
 
         public static string input()
