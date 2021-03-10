@@ -307,6 +307,17 @@ namespace EasyStringProblems
             //  DecryptString decryptString = new DecryptString();
             //  Console.WriteLine("decryptString : " + decryptString.FreqAlphabets(input()));
         
+
+            /* 
+            if you want to see output Split a Generate a String With Characters That Have Odd Counts
+            commnet out below two lines
+            Problem no = 1374
+            status: done
+            */
+            //  GenerateStringCharacters generateString = new GenerateStringCharacters();
+            //  Console.WriteLine("generateString : " + generateString.GenerateTheString(4));
+        
+            
             
         }
 
