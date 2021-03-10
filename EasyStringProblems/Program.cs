@@ -317,6 +317,16 @@ namespace EasyStringProblems
             //  GenerateStringCharacters generateString = new GenerateStringCharacters();
             //  Console.WriteLine("generateString : " + generateString.GenerateTheString(4));
         
+            /* 
+            if you want to see output Split a Generate a String Matching in an Array
+            commnet out below two lines
+            Problem no = 1408
+            status: done
+            */
+            //  string[] wordList = {"mass","as","hero","superhero"};
+            //  StringMatchingArray stringMatching = new StringMatchingArray();
+            //  Console.WriteLine("stringMatching : " + stringMatching.GenerateTheString(wordList));
+        
             
             
         }
