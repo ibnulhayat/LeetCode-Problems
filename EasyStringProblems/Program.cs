@@ -257,6 +257,17 @@ namespace EasyStringProblems
             //  Console.WriteLine("Long Pressed Name : " + longPressed.IsLongPressedName(input(),input()));
         
 
+            /* 
+            if you want to see output 
+            commnet out below two lines
+            Problem no = 929
+            status: done
+            */
+            // string[] emails = {"test.email+alex@gmail.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"};
+            //  UniqueEmailAddresses uniqueEmail = new UniqueEmailAddresses();
+            //  Console.WriteLine("Long Pressed Name : " + uniqueEmail.NumUniqueEmails(emails));
+        
+
         }
 
         public static string input()
