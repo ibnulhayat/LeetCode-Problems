@@ -2,8 +2,6 @@ using System;
 
 namespace EasyStringProblems
 {
-
-    
     /*  
         LeetCode Problem
         Difficulty = easy
