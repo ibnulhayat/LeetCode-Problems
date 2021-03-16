@@ -339,6 +339,16 @@ namespace EasyStringProblems
             // Console.WriteLine("Count Matching : " + countMatching.CountMatches(wordList,"type","phone"));
         
             
+            /* 
+            if you want to see output Split a Check if One String Swap Can Make Strings Equal
+            commnet out below two lines
+            Problem no = 1790
+            status: done
+            */
+            
+            // OneStringSwapCan oneStringSwap = new OneStringSwapCan();
+            // Console.WriteLine("oneStringSwap : " + oneStringSwap.AreAlmostEqual("bank","kanb"));
+        
             
         }
 
