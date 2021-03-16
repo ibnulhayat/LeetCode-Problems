@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Collections.Generic;
 namespace EasyStringProblems
 {
     class Program
@@ -326,6 +326,17 @@ namespace EasyStringProblems
             //  string[] wordList = {"mass","as","hero","superhero"};
             //  StringMatchingArray stringMatching = new StringMatchingArray();
             //  Console.WriteLine("stringMatching : " + stringMatching.GenerateTheString(wordList));
+        
+
+            /* 
+            if you want to see output Split a Count Items Matching a Rule
+            commnet out below two lines
+            Problem no = 1773
+            status: done
+            */
+            // IList<IList<string>> wordList = {{"phone","blue","pixel"},{"computer","silver","lenovo"},{"phone","gold","iphone"}};
+            // CountItemsMatchingRule countMatching = new CountItemsMatchingRule();
+            // Console.WriteLine("Count Matching : " + countMatching.CountMatches(wordList,"type","phone"));
         
             
             
