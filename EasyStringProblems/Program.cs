@@ -349,6 +349,16 @@ namespace EasyStringProblems
             // OneStringSwapCan oneStringSwap = new OneStringSwapCan();
             // Console.WriteLine("oneStringSwap : " + oneStringSwap.AreAlmostEqual("bank","kanb"));
         
+            /* 
+            if you want to see output Split a Merge Strings Alternately
+            commnet out below two lines
+            Problem no = 1768
+            status: done
+            */
+            
+            MergeStringsAlternately mergeStrings = new MergeStringsAlternately();
+            Console.WriteLine("mergeStrings : " + mergeStrings.MergeAlternately("abc","pqrst"));
+        
             
         }
 
