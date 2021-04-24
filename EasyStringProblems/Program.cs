@@ -356,8 +356,8 @@ namespace EasyStringProblems
             status: done
             */
             
-            MergeStringsAlternately mergeStrings = new MergeStringsAlternately();
-            Console.WriteLine("mergeStrings : " + mergeStrings.MergeAlternately("abc","pqrst"));
+            // MergeStringsAlternately mergeStrings = new MergeStringsAlternately();
+            // Console.WriteLine("mergeStrings : " + mergeStrings.MergeAlternately("abc","pqrst"));
         
             
         }
