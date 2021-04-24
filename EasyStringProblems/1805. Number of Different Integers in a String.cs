@@ -1,12 +1,12 @@
 using System;
-using System.Text;
+using System.Collections.Generic;
 
 namespace EasyStringProblems
 {
 	
 	class NumDifferentIntegers{
 
-		public int NumDifferentIntegers(string word) {
+		public int numDifferentIntegers(string word) {
 			
 			HashSet<string> hashSet = new HashSet<string>();
 			int i = 0;
